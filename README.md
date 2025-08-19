@@ -1,22 +1,35 @@
-# Cypress Web Automation – SauceDemo
+# Cypress Web Automation – QA Portfolio Project
 
-This project demonstrates end-to-end (E2E) test automation using **Cypress** on the sample e‑commerce site SauceDemo.
+## Overview
+This project demonstrates end-to-end web automation testing using **Cypress**.  
+I automated critical scenarios on the [SauceDemo](https://www.saucedemo.com/) sample app.
 
-##  Scenarios Covered
-- Login with valid credentials
-- Login with invalid credentials
-- Add item to cart
-- Logout
-- Checkout flow (happy path)
+---
 
-##  Tech
-- Cypress 13+
-- JavaScript
+##  Test Scenarios Automated
+1. ✅ Successful login with valid credentials
+2. ✅ Unsuccessful login with invalid credentials
+3. ✅ Add item to cart
+4. ✅ Checkout flow with order confirmation
 
-##  How to Run
-```bash
-npm install
-npm run cypress:open   # interactive
-npm run cypress:run    # headless
+---
 
+##  Project Structure
+- **cypress/e2e** → Contains test specs  
+- **test-cases.md** → Manual test cases mapped to automated ones  
+- **cypress.config.js** → Cypress configuration file  
 
+---
+
+## Tools & Tech
+- Cypress  
+- Node.js  
+- JavaScript  
+- GitHub for portfolio
+
+---
+
+##  Sample Test Run
+``` npx cypress open ```
+or run headless:
+``` npx cyoress run ```
