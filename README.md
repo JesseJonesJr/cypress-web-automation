@@ -14,6 +14,13 @@ I automated critical user scenarios on the [SauceDemo](https://www.saucedemo.com
 5. ✅ Successful logout
 
 ---
+## Test Coverage
+- ✅ Positive and negative login scenarios  
+- ✅ Add to cart functionality  
+- ✅ Checkout flow with order confirmation  
+- ✅ Page navigation and URL validation
+   
+---
 
 ## Project Structure
 - **cypress/e2e/** → Contains Cypress test specifications  
@@ -47,3 +54,4 @@ I automated critical user scenarios on the [SauceDemo](https://www.saucedemo.com
 
 This is an educational project for portfolio purposes.
 The [SauceDemo](https://www.saucedemo.com/) app is a public demo site provided for practicing QA automation.
+
