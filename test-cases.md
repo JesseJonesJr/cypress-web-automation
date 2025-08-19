@@ -1,6 +1,6 @@
 
-### b) `test-cases.md`
-```markdown
+### `test-cases.md`
+
 # Test Cases – Cypress Web Automation (SauceDemo)
 
 ## 1) Login – Valid
@@ -28,3 +28,4 @@
 **Expected:** Confirmation header contains “Thank you for your order!”  
 **Debugging note:** Initial failure due to text mismatch (case/exclamation). Fixed by asserting the exact UI string.  
 **Status:** ✅ Passed
+
