@@ -13,9 +13,10 @@ This project demonstrates end-to-end (E2E) test automation using **Cypress** on 
 - Cypress 13+
 - JavaScript
 
-## ▶ How to Run
+##  How to Run
 ```bash
 npm install
 npm run cypress:open   # interactive
 npm run cypress:run    # headless
+
 
